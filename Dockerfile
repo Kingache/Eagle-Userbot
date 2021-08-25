@@ -1,10 +1,10 @@
-FROM Kingache/Eagle:latest
+FROM Kingache/Eagle-Ubot:latest
 
 #clonning repo 
-RUN git clone https://github.com/Kingache/Eagle /root/Eagle
+RUN git clone https://github.com/Kingache/Eagle-Ubot/root/Eagle-Ubot
 
 #working directory 
-WORKDIR /root/Eagle
+WORKDIR /root/Eagle-Ubot
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt

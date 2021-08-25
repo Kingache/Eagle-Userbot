@@ -4,29 +4,29 @@
 _repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $Eagle_repo == "Eagle" ]]
+    if [[ $Eagle_repo == "Eagle-Ubot" ]]
     then 
-        echo "YUhSMGNITTZMeTluYVhSb2RXSXVZMjl0TDB0cGJtZGhZMmhsTDBWaFoyeGxMMkZ5WTJocGRtVXZiV0ZwYmk1NmFYQT0=" | base64 -d
-    elif [[ $Eagle_repo == "Eagle" ]]
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0tpbmdhY2hlL0VhZ2xlLVVib3QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
+    elif [[ $Eagle_repo == "Eagle-Ubot" ]]
     then
-        echo "YUhSMGNITTZMeTluYVhSb2RXSXVZMjl0TDB0cGJtZGhZMmhsTDBWaFoyeGxMMkZ5WTJocGRtVXZiV0ZwYmk1NmFYQT0=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0tpbmdhY2hlL0VhZ2xlLVVib3QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
     elif [[ $Eagle_repo =~ $regex ]]
     then
         if [[ $Eagle_repo_branch ]]
         then
-            echo "${Eagle_repo}/archive/${Eagle_repo_branch}.zip"
+            echo "${Eagle-Ubot_repo}/archive/${Eagle_repo_branch}.zip"
         else
-            echo "${Eagle_repo}/archive/main.zip"
+            echo "${Eagle-Ubot_repo}/archive/main.zip"
         fi
     else
-        echo "YUhSMGNITTZMeTluYVhSb2RXSXVZMjl0TDB0cGJtZGhZMmhsTDBWaFoyeGxMMkZ5WTJocGRtVXZiV0ZwYmk1NmFYQT0=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL0tpbmdhY2hlL0VhZ2xlLVVib3QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
     fi
 }
 
 
 start_bot () {
     local zippath
-    zippath="Eagle.zip"
+    zippath="main.zip"
     echo "  Downloading source code ..."
     wget -q $(_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
@@ -41,7 +41,7 @@ start_bot () {
     echo "  • Starting Userbot •  "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m Eagle
+    python3 -m eagle
 }
 
 start_bot
