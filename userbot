@@ -6,20 +6,20 @@ _repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $userbot_repo == "userbot" ]]
     then 
-        echo "" | base64 -d
+        echo "YUhSMGNITTZMeTluYVhSb2RXSXVZMjl0TDB0cGJtZGhZMmhsTDBWaFoyeGxMMkZ5WTJocGRtVXZiV0ZwYmk1NmFYQT0=" | base64 -d
     elif [[ $userbot_repo == "userbot" ]]
     then
-        echo "" | base64 -d
+        echo "YUhSMGNITTZMeTluYVhSb2RXSXVZMjl0TDB0cGJtZGhZMmhsTDBWaFoyeGxMMkZ5WTJocGRtVXZiV0ZwYmk1NmFYQT0=" | base64 -d
     elif [[ $userbot_repo =~ $regex ]]
     then
         if [[ $userbot_repo_branch ]]
         then
             echo "${userbot_repo}/archive/${userbot_repo_branch}.zip"
         else
-            echo "${userbot_repo}/archive/master.zip"
+            echo "${userbot_repo}/archive/main.zip"
         fi
     else
-        echo "" | base64 -d
+        echo "YUhSMGNITTZMeTluYVhSb2RXSXVZMjl0TDB0cGJtZGhZMmhsTDBWaFoyeGxMMkZ5WTJocGRtVXZiV0ZwYmk1NmFYQT0=" | base64 -d
     fi
 }
 
@@ -30,12 +30,14 @@ start_bot () {
     echo "  Downloading source code ..."
     wget -q $(_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
-    IBELSPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    EAGLESPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "  Processing Codes..."
     rm -rf "$zippath"
     sleep 5
-    cd $IBELSPATH
+    cd $EAGLESPATH
+    echo " i love you "
+    sleep 5
     echo "  • Starting Userbot •  "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
