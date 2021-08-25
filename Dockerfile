@@ -4,11 +4,11 @@ FROM Kingache/eagle:latest
 RUN git clone https://github.com/Kingache/eagle /root/eagle
 
 #working directory 
-WORKDIR /root/userbot
+WORKDIR /root/Eagle
 
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/userbot/bin:$PATH"
+ENV PATH="/home/Eagle/bin:$PATH"
 
-CMD ["python3","-m","userbot"]
+CMD ["python3","-m","Eagle"]
