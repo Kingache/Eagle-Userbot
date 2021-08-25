@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "🦅 Eagle-Userbot 🦅",
   "description": "#nama bot#is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
   "logo": "",
     "keywords": [
@@ -11,9 +11,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/",
-  "website": "https://github.com/",
-  "success_url": "https://t.me/",
+  "repository": "https://github.com/Kingache/Eagle-Userbot",
+  "website": "https://github.com/Kingache/Eagle-Userbot",
+  "success_url": "https://t.me/Manusiabajingann",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
