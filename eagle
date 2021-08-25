@@ -41,7 +41,7 @@ start_bot () {
     echo "  • Starting Userbot •  "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
-    python3 -m eagle
+    python3 -m Eagle
 }
 
 start_bot

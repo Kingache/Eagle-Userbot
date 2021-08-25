@@ -1,1 +1,1 @@
-worker: bash eagle
+worker: bash Eagle
