@@ -37,7 +37,7 @@ async def runcmd(cmd: str) -> Tuple[str, str, int, int]:
     )
 
 
-async def update_requirements(main , test):
+async def update_requirements(main, test):
     a, r = await lines_differnce(main, test)
     try:
         for i in a:

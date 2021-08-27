@@ -9,6 +9,6 @@ WORKDIR /root/Eagle-Ubot
 # Install requirements
 RUN pip3 install -U -r requirements.txt
 
-ENV PATH="/home/Eagle/bin:$PATH"
+ENV PATH="/home/Eagle-Ubot/bin:$PATH"
 
-CMD ["python3","-m","Eagle"]
+CMD ["python3","-m","eagle"]
