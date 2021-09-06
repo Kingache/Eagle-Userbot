@@ -11,7 +11,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/",
+  "repository": "https://github.com/Kingache/Eagle-Ubot",
   "website": "https://github.com/",
   "success_url": "https://t.me/",
   "env": {
@@ -20,7 +20,7 @@
       "value": "ANYTHING"
     },
     "YOUR_NAME": {
-      "description": "Fill Your Telegram Name. Default Value is Hêll",
+      "description": "Fill Your Telegram Name. Default Value is Eagle",
       "value": "",
       "required": false
     },
