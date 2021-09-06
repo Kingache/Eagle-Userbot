@@ -4,19 +4,19 @@
 _repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $Eagle_repo == "Eagle-Ubot" ]]
+    if [[ $UPSTREAM_REPO == "Eagle-Ubot" ]]
     then 
         echo "aHR0cHM6Ly9naXRodWIuY29tL0tpbmdhY2hlL0VhZ2xlLVVib3QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
-    elif [[ $Eagle_repo == "Eagle-Ubot" ]]
+    elif [[ $UPSTREAM_REPO == "Eagle-Ubot" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL0tpbmdhY2hlL0VhZ2xlLVVib3QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
-    elif [[ $Eagle_repo =~ $regex ]]
+    elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
-        if [[ $Eagle_repo_branch ]]
+        if [[ $UPSTREAM_REPO_BRANCH ]]
         then
-            echo "${Eagle-Ubot_repo}/archive/${Eagle_repo_branch}.zip"
+            echo "${UPSTREAM_REPO_BRANCH}/archive/${UPSTREAM_REPO_BRANCH}.zip"
         else
-            echo "${Eagle-Ubot_repo}/archive/main.zip"
+            echo "${UPSTREAM_REPO_BRANCH}/archive/main.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL0tpbmdhY2hlL0VhZ2xlLVVib3QvYXJjaGl2ZS9tYWluLnppcA==" | base64 -d
