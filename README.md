@@ -39,7 +39,6 @@ VAR -> STRING_SESSION
 <details>
   <summary><b>KLIK DISINI UNTUK TOMBOL DEPLOY ASU</b></summary>
 
-## CARA DEPLOY? JANGAN MALAS BACA TOLOL ☕
 
 
 
