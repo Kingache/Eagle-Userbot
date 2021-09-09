@@ -20,17 +20,17 @@
       "value": "ANYTHING"
     },
     "YOUR_NAME": {
-      "description": "Fill Your Telegram Name. Default Value is Eagle",
+      "description": "Isi Nama Telegram Anda. Nilai Defaultnya adalah Eagle",
       "value": "",
       "required": false
     },
     "ALIVE_MSG": {
-      "description": "Your Custom Alive Message to show on Alive.",
+      "description": "Pesan Alive Kustom Anda untuk ditampilkan di Alive.",
       "value": "",
       "required": false
     },
     "ALIVE_PIC": {
-      "description": "Paste the telegraph link of a video/gif/pic to show on Alive.",
+      "description": "Tempel tautan telegraph dari video/gif/gambar untuk ditampilkan di Alive.",
       "value": "",
       "required": false
     },
@@ -66,33 +66,33 @@
       "value": "ENABLE"
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org",
+      "description": "Dapatkan di web my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org",
+      "description": "Dapatkan di web my.telegram.org",
       "value": ""
     },
     "LOGGER_ID": {
-      "description": "Create a private channel. Value should start with -100",
+      "description": "Buatlah saluran pribadi lalu salin id nya. Nilai harus dimulai dengan -100",
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by using repl or termux. Refer to Repo for more info.",
+      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @Manusiabajingann di telegram.",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
+      "description": "Heroku API KEY mu, dapatkan dari web 'https://dashboard.heroku.com/account'.",
       "value": "",
       "required": true
     },
     "HEROKU_APP_NAME": {
-      "description": "The Value of App Name you filled in right on top. Required for updater to work.",
+      "description": "Nama App heroku, Nama App yang paling pertama di isi (liat paling atas).",
       "value": "",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "description": "Buat bot dari @BotFather dan tempel token bot di sini.",
       "value": ""
     },
     "TAG_LOGGER": {
@@ -101,21 +101,21 @@
       "required": false
     },
     "BOT_USERNAME": {
-      "description": "Make a bot from @BotFather and paste the username here.",
+      "description": "Username bot Anda yang di buat di @BotFather tanpa harus menggunakan (@).",
       "value": ""
     },
     "YOUR_CHANNEL": {
       "description": "Fill your channel username(without @) to get this displayed on your Ibel's Alive.",
-      "value": "",
+      "value": "infobotrelax",
       "required": false
     },
     "YOUR_GROUP": {
-      "description": "Fill your group username(without @) to get this displayed on your Ibel's Alive.",
-      "value": "",
+      "description": "Fill your group username(without @) to get this displayed on your Ibel's Alive..",
+      "value": "EagleSupport",
       "required": false
     },
     "SUDO_USERS": {
-      "description": "Userid of user to grant sudo access. Add multiple sudo users by giving a space between userids",
+      "description": "User id pengguna untuk memberikan akses sudo. Tambahkan beberapa pengguna Sudo dengan memberi spasi di antara user id",
       "value": "",
       "required": false
     }
