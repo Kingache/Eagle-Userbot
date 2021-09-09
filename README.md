@@ -10,7 +10,7 @@
     <a href="https://travis-ci.com/Kingache/Eagle-Ubot.svg?branch=Eagle-Ubot" /></a>
     <a href="https://github.com/Kingache/Eagle-Ubot"> <img src="https://img.shields.io/github/repo-size/Kingache/Eagle-Ubot?logo=github&style=for-the-badge" /></a>
     <a href="https://github.com/Kingache/Eagle-Ubot/network/members"> <img src="https://img.shields.io/github/forks/Kingache/Eagle-Ubot?logo=github&style=for-the-badge" /></a>
-<a href="https://t.me/Relaxinated"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/EagleSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
     <a href="https://t.me/infobotrelax"><img src="https://img.shields.io/badge/Join-Channel%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
    </p>
 
