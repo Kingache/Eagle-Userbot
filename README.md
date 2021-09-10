@@ -12,7 +12,7 @@
 
 
 
-<h2 align="center"><b>BOT: <a href="https://telegram.dog/mixiologist">EAGLE 🦅</a></b></h2>
+<h2 align="center"><b>BOT: <a href="https://github.com/Kingache/Eagle-Userbot">EAGLE 🦅</a></b></h2>
 <br>
 <p align="center">
    <a href="https://github.com/Kingache/Eagle-Ubot"><img src="https://telegra.ph/file/51118268b61ce2c798e3d.png" alt="EAGLE-UBOT" width=400px></a>
