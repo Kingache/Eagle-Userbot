@@ -42,7 +42,7 @@ VAR -> STRING_SESSION
 
 * DENGAN HEROKU:
 <p align="center">
-   <a href = "https://heroku.com/deploy?template=https://github.com/Kingache/Eagle-Userbot"><img src="https://telegra.ph/file/51118268b61ce2c798e3d.png" alt="Press to Takeoff" width="490px"></a>
+   <a href = "https://heroku.com/deploy?template=https://github.com/Kingache/Eagle-Userbot"><img src="https://telegra.ph/file/38dd2de0f290131b56a5c.jpg" alt="Press to Takeoff" width="490px"></a>
 </p>
 <br>
 
