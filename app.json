@@ -40,7 +40,7 @@
       "required": false
     },
     "PMPERMIT_PIC": {
-      "description": "Paste the Telegraph link to show in pm permit message.",
+      "description": "Tempel tautan Telegraph untuk ditampilkan di pesan izin pm.",
       "value": "",
       "required": false
     },
@@ -55,7 +55,7 @@
     },
     "EMOJI_IN_HELP": {
       "description": "A emoji to display in help command",
-      "value": "🔸"
+      "value": "☆"
     },
     "BUTTONS_IN_HELP": {
       "description": "No.of buttons to display in help menu.",
