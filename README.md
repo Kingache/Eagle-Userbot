@@ -44,3 +44,6 @@ VAR -> STRING_SESSION
 
 ## Credits
 Thanks To
+
+*   [ACHE](https://github.com/Kingache/Eagle-Userbot) - Eagle-Userbot
+*   [IZZY](http://github.com/hitokizzy) - Kaum Ezze
