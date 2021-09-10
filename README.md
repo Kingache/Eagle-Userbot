@@ -1,6 +1,3 @@
-
-# Repo Ini Dibuat karna Kegabutan Semata
-
 ## 🦅 EAGLE PROJECTS 🦅
 <br>
 <br>
@@ -23,8 +20,6 @@
    <br>
 </p>
 <h1>🦅 EAGLE BOT 🦅</h1>
-<b>Tuhan bersama manusia-manusia yang hidupnya begitu getir namun tetap optimis menjalani hidup.</b>
-<br>
 <br>
 
 ## String Session
@@ -35,7 +30,7 @@ VAR -> STRING_SESSION
 - [Generate on REPL Click](https://repl.it/@ManusiaRakitan/stringsession#README.md)
 ### Read more
 <details>
-  <summary><b>KLIK DISINI UNTUK TOMBOL DEPLOY ASU</b></summary>
+  <summary><b>KLIK DISINI UNTUK TOMBOL DEPLOY</b></summary>
 
 
 
@@ -48,3 +43,4 @@ VAR -> STRING_SESSION
 
 
 ## Credits
+Thanks To
