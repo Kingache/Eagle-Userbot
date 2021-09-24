@@ -1,7 +1,7 @@
 {
   "name": "🦅 Eagle-Userbot 🦅",
   "description": "Eagle Userbot is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
-  "logo": "",
+  "logo": "https://telegra.ph/file/51118268b61ce2c798e3d.png",
     "keywords": [
     "telegram",
     "Eagle",
@@ -59,7 +59,7 @@
     },
     "BUTTONS_IN_HELP": {
       "description": "No.of buttons to display in help menu.",
-      "value": "7"
+      "value": "5"
     },
     "PM_PERMIT": {
       "description": "Fill DISABLE to turn off pm permit.",
