@@ -27,7 +27,7 @@ VAR -> STRING_SESSION
 #### By HEROKU
 - [open your app](https://dashboard.heroku.com/apps/) then go to more -> run console and type bash genStr and click run.
 #### On REPL
-- [Generate on REPL Click](http://replit.com/@izzy-adeeva/UserButt)
+- [Generate on REPL Click](https://replit.com/@Mustache234/eagle#main.py)
 ### Read more
 <details>
   <summary><b>KLIK DISINI UNTUK TOMBOL DEPLOY</b></summary>
